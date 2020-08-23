@@ -1,0 +1,4 @@
+D:\dot net practicals\ASP.NET\PrjDemo\PrjDemo\bin\PrjDemo.dll
+D:\dot net practicals\ASP.NET\PrjDemo\PrjDemo\bin\PrjDemo.pdb
+D:\dot net practicals\ASP.NET\PrjDemo\PrjDemo\obj\Debug\PrjDemo.dll
+D:\dot net practicals\ASP.NET\PrjDemo\PrjDemo\obj\Debug\PrjDemo.pdb

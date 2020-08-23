@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="PrjDemo.Admin.Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            width: 195px;
+        }
+        .style3
+        {
+            width: 522px;
+            text-align: center;
+        }
+        .style4
+        {
+            color: #0066CC;
+        }
+        .style5
+        {
+            color: #FF0066;
+        }
+        #form1
+        {
+            height: 548px;
+            width: 920px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        
+    <table  class="style1" style="width:900px; height: 290px;">
+        <tr>
+            <td>
+                
+                <table class="style1" >
+                    <tr>
+                        <td class="style2" bgcolor="#CC99FF">
+                            <asp:Image ID="Image1" runat="server" Height="142px" 
+                                ImageUrl="~/imagejewell/Capture.PNG" Width="192px" />
+                         </td>
+                        <td class="style3" bgcolor="#CC99FF">
+                            <asp:LinkButton ID="LinkButton1" runat="server" Height="52px" 
+                                style="font-weight: 700; font-size: xx-large; color: #FF0066" 
+                                Width="352px">Jewellery Accessories</asp:LinkButton>
+                            <br />
+                            <br />
+                            <span class="style4"><strong><em style="color: #FF33CC">Feel&nbsp; the Beautiful !....</em></strong></span></td>
+                        <td>
+                            <asp:Image ID="Image2" runat="server" Height="168px" 
+                                ImageUrl="~/imagejewell/cb304dfa053566b4bec0e9e71d1cf450--logo-template-black-backgrounds.jpg" 
+                                Width="186px" />
+                        </td>
+                    </tr>
+                </table>
+                
+             </td>
+        </tr>
+        <tr>
+            <td>
+                
+                <table align="center" class="style1">
+                    <tr>
+                        <td bgcolor="#FF99FF">
+                            <a href="AddEditCategories.aspx"><span class="style5"><strong>Category</strong></span></a><span 
+                                class="style5"><strong>&nbsp;&nbsp;&nbsp;&nbsp; </strong></span> <a href="AddProduct.aspx">
+                            <span class="style5"><strong>Products</strong></span></a><span class="style5"><strong>&nbsp;&nbsp;&nbsp;&nbsp; 
+                            </strong></span> <a href=""><span class="style5"><strong>Customer Orders</strong></span></a><span 
+                                class="style5"><strong>&nbsp;&nbsp;</strong></span>
+                       </td>
+                    </tr>
+                </table>
+                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table class="style1">
+                    <tr>
+                        <td>
+                            <asp:Panel ID="pnlcategories" runat="server">
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </asp:Panel>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center" bgcolor="#FF99FF">
+                &nbsp;<span class="style5">©20Fingers2Brains.Blogspot.com&nbsp; </span></td>
+        </tr>
+    </table>
+    
+        
+    </form>
+</body>
+</html>
